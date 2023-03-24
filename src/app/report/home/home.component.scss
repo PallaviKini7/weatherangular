@@ -1,0 +1,87 @@
+.place {
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 2%;
+
+}
+
+.placehead {
+    padding: 1% 2%;
+}
+
+.addfavrt {
+    color: #FFFFFF;
+}
+
+.addedfavrt {
+    color: #FAD05B;
+}
+
+.tempdata {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding-top: 10%;
+
+}
+
+.datadesc {
+
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 25px;
+    text-align: center;
+}
+
+.temperature {
+    height: 75px;
+    width: 73px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 75px;
+}
+
+.line {
+    border-bottom: 1px solid #ffffff6b;
+    padding-top: 13%;
+}
+
+.bottomcontent {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.minmaxtxt {
+    
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+.temp
+{
+    
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+.minmax
+{
+    display: flex;
+}

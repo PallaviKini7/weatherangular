@@ -1,0 +1,30 @@
+<div class="header">
+    <div class="imagesearch">
+        <div class="logo">
+            <img src="../../../assets/logo_web.png" alt="">
+        </div>
+        <div class="input">
+            <form #form="ngForm" (ngSubmit)="submitdata()" >
+                <div class="insearch">
+                    <input type="text" class="inputfield" placeholder="Search city" [(ngModel)]="search"  [ngModelOptions]="{standalone:true}">
+                    <div class="searchicon"><i class="pi pi-search" style="color: azure;"></i></div>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+    <div class="outerline">
+
+        <div class="navcontent">
+            <div class="home" routerLink="home" routerLinkActive="active">HOME</div>
+            <div class="fav" routerLink="favourite" routerLinkActive="active">FAVOURITE</div>
+            <div class="recnt" routerLink="recent" routerLinkActive="active">RECENT SEARCH</div>
+        </div>
+        <div class="line">
+    
+        </div>
+    </div>
+
+
+</div>

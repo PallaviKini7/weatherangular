@@ -1,0 +1,62 @@
+<div>
+    <div class="placehead">
+        <div class="place">Udupi , Karnataka</div>
+        <div class="addfavrt" *ngIf="setheart==false">
+            <i class="pi pi-heart" style="font-size: 1.2rem;color: #ffffff;" (click)="fillheart()"></i>Add to favourite
+        </div>
+        <div class="addedfavrt" *ngIf="setheart==true">
+            <i class="pi pi-heart-fill" style="font-size: 1.2rem; color: #FAD05B;" (click)="fillheart()"></i>Added to
+            favourite
+        </div>
+
+
+    </div>
+    <div class="tempdata">
+        <div class="subtemp">
+
+            <div><img src="../../../assets//icon_temperature_info.png" alt=""></div>
+            <div class="temperature">87</div>
+            <div class="datadesc">Mostly sunny</div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="bottomcontent">
+        <div class="minmax">
+            <div class="btnimage"><img src="../../../assets/icon_temperature_info.png" alt=""></div>
+            <div>
+                <div class="minmaxtxt">Min-Max</div>
+                <div class="temp">rgege</div>
+            </div>
+        </div>
+        <div class="minmax">
+            <div><img src="../../../assets/icon_precipitation_info.png" alt=""></div>
+            <div>
+                <div class="minmaxtxt">Precipitation</div>
+                <div class="temp">rgege</div>
+            </div>
+        </div>
+        <div class="minmax">
+            <div><img src="../../../assets/icon_humidity_info.png" alt=""></div>
+            <div>
+                <div class="minmaxtxt">Humidity</div>
+                <div class="temp">gegr</div>
+            </div>
+        </div>
+        <div class="minmax">
+            <div><img src="../../../assets/icon_wind_info.png" alt=""></div>
+            <div>
+                <div class="minmaxtxt">Wind</div>
+                <div class="temp">gergg</div>
+            </div>
+        </div>
+        <div class="minmax">
+            <div><img src="../../../assets/icon_visibility_info.png" alt=""></div>
+            <div>
+                <div class="minmaxtxt">Visibility</div>
+                <div class="temp">rgerg</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
